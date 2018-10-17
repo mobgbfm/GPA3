@@ -6,7 +6,7 @@ Group Project for December
 | Story Points  | Time |
 | ------------- | ------------- |
 | 1  | < 4 hours |
-| 2  | 2 day  |
+| 2  | 1 day  |
 | 3  | 2 days |
 | 5  | 4 days |
 
@@ -23,8 +23,8 @@ Anything greater than story point 5, we should break down into a smaller story.
 | 07/11/2018  | ?? |
 
 ### Scrum Master Responsibilities
-Run the retro
-Keep the board up to date with what is present
-Keeping in touch with team members to ensure no one is blocked
-Get regular updates from team members and ask them to update the scrum board
+- Run the retro
+- Keep the board up to date with what is present
+- Keeping in touch with team members to ensure no one is blocked
+- Get regular updates from team members and ask them to update the scrum board
 
