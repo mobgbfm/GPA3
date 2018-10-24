@@ -16,8 +16,8 @@ Anything greater than story point 5, we should break down into a smaller story.
 
 | Date  | Person |
 | ------------- | ------------- |
-| 10/10/2018  | ?? |
-| 17/10/2018  | ?? |
+| 10/10/2018  | Michael |
+| 17/10/2018  | Rosemarie |
 | 24/10/2018  | ?? |
 | 31/10/2018  | ?? |
 | 07/11/2018  | ?? |
