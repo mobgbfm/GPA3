@@ -1,0 +1,44 @@
+//manual calculations
+
+From survey results:
+
+--> 9 educational catergories
+
+--> total responses = 98856 minus 4152 (NA responses)
+
+--> category 1 = I never completed any formal education
+	--> results from survey = 700
+	--> as a percentage = 0.74%
+
+--> category 2 = Primary/elementary 
+	--> results from survey = 1656
+	--> as a percentage = 1.75%
+
+--> category 3 = Some college or university
+	--> results from survey = 11710
+	--> as a percentage = 12.36%
+
+--> category 4 = Secondary 
+	--> results from survey = 8951
+	--> as a percentage = 9.45%
+
+--> category 5 = Associate degree
+	--> results from survey = 2970
+	--> as a percentage = 3.14%
+
+--> category 6 = Bachelors degree
+	--> results from survey = 43659
+	--> as a percentage = 46.1%
+
+--> category 7 = Masters
+	--> results from survey = 21396
+	--> as a percentage = 22.59%
+
+--> category 8 = Professional
+	--> results from survey = 1447
+	--> as a percentage = 1.53%
+
+--> category 9 = Doctoral
+	--> results from survey = 2214
+	--> as a percentage = 2.34%
+
