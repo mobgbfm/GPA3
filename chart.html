@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Lato">
+    <style>
+      body {
+        font-family: 'Lato', serif;
+        font-size: 16px;
+      }
+    </style>
+
+    <title>2018 Developer-profile-educational-attainment</title>      <!-- import plugin script -->
+
+    <script src='static/Chart.min.js'></script>
+
+</head>
+
+<body>
+
+<h3 color=grey>Educational Attainment</h3><!-- bar chart canvas element -->
+<canvas id="chart" width="600" height="900"></canvas>
+
+<script>
+
+    // bar chart data
+
+    var barData = {
+	
+        labels: [{% for item in labels %} 
+
+            "{{item}}",
+
+        {% endfor %}],
+
+        datasets: [
+
+            {		
+                fillColor: "rgb(255,165,0)",
+
+                strokeColor: "rgba(255,165,0)",
+
+                pointColor: "rgba(255,165,0)",
+
+                data: [{% for item in values %}
+
+                    {{item}},
+
+                {% endfor %}]
+
+            }
+
+        ]
+
+    }
+
+ Chart.defaults.global.scaleLineColor = "black";
+
+    // get bar chart canvas
+
+    var mychart = document.getElementById("chart").getContext("2d");
+
+   // steps = 4
+
+   // max = 50
+   
+   var options = {scaleShowGridLines: true,
+    type: 'horizontalBar',
+
+	    axisY: {
+        //labelAutoFit: true, //false by default.
+        //labelWrap: false, // true by default.
+        labelMaxWidth: 100,
+        prefix: "This is a very long label "
+    }
+}
+
+    // draw bar chart
+
+    var mychart = new Chart(mychart).Bar(barData,{scaleFontSize : 13,scaleFontColor : "gray"});
+
+</script>
+
+<p align="left">Worldwide, about three-fourths of professional developers have the equivalent of a bachelor's degree or higher. It is not that rare to find accomplished professional developers who have not completed a degree.
+
+</body>
+
+</html>
