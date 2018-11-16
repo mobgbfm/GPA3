@@ -11,7 +11,7 @@ def barchart1():
 
     data = pd.read_csv('survey_results_public.csv', usecols=['FormalEducation'],encoding='latin-1', low_memory=False)
 
-    summary = data['FormalEducation'].value_counts()
+    summary = data['FormalEducation'].value_counts(normalize=True)
 
     values = []
     for i in summary:
@@ -23,7 +23,7 @@ def barchart1():
 
     ## apostrophes are rendering wrong - this is not the right order-chart is orderd by size
     ## it doesn't seem to count NA?  - value counts must ignore it
-    ## I put in the labels in the order of size of the results. 
+    ## I put in the labels in the order of size of the results.
     labels = ['I never completed any formal education','Professional degree','Primary/elementary school','Doctoral degree', 'Associate degree','Secondary school','Some college/university study without earning a degree','Master\'s degree', 'Bachelor\'s degree']
 
 
